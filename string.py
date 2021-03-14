@@ -1,7 +1,7 @@
 str="i am jyoti chauhan"
 str=str.split()
 i=0
-empty=[""]
+empty=[]
 while i<len(str):
     if str[i] not in empty:
         empty.append(str[i])
